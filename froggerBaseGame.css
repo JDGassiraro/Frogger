@@ -1,0 +1,65 @@
+/* Frogger Base Game
+.querySelector()
+.querySelectorAll()
+.classList.add()
+.classList.remove()
+.classList.contains()
+switch()
+e.key
+.forEach()
+setInterval()
+clearInterval()
+.addEventListener()
+.removeEventListener()
+.textContent*/
+.grid{
+    border: 1px solid black;
+    height: 180px;
+    width: 180px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*the div after .grid means that every div inside of .grid will have the following properties*/
+.grid div {
+    height: 20px;
+    width: 20px;
+}
+
+.ending-block {
+    background-color: red;
+}
+
+.starting-block {
+    background-color: blue;
+}
+
+/*the comma allows moe than one class to be altered by what's in the curly brackets*/
+/*.log-left, .log-right {
+    background-color: lightblue;
+}
+*/
+/*.car-left, .car-right {
+    background-color: lightslategray;
+}
+*/
+.l1, .l2, .l3 {
+    background-color: brown;
+}
+
+.l4, .l5 {
+    background-color: lightblue;
+}
+
+.c1 {
+    background-color: tan;
+}
+
+.c2, .c3 {
+    background-color: lightgrey;
+}
+/*putting the frog class here makes it the last one to happen, wherever
+the frog is will always be green*/
+.frog  {
+    background-color: green;
+}
